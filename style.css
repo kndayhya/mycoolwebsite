@@ -15,4 +15,8 @@ img{
 
 body{ background-color: #FFC0CB;}
 
+img:hover{
+    width: 270px;
+    height: 270px
+}
 
