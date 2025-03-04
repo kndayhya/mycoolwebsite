@@ -9,7 +9,10 @@ h2{
 img{
     width: 250px;
     height:250px;
+    display: flex;
+    align-items: start;
 }
 
 body{ background-color: #FFC0CB;}
+
 
