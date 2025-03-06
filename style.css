@@ -55,6 +55,7 @@ body{ background-color: #FFC0CB;
     align-items: center;
     justify-content: center;
     flex-direction:column;
+    width:100%
 }
 
 p{
