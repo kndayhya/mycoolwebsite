@@ -60,7 +60,12 @@ body{ background-color: #FFC0CB;
 p{
     font-family: "Brush Script MT",cursive;
     font-size: 25px;
-    display: flex;
-    color: rgb(59, 3, 3)
+    color: rgb(59, 3, 3);
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: left;
+    max-width: 800px; 
+    width: 100%; 
+    word-wrap: break-word; 
 }
 
