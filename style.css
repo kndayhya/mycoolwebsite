@@ -31,8 +31,6 @@ img{
     width: 250px;
     height:250px;
     display: flex;
-    align-items: start;
-    justify-content: center;
     transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
     animation: floatingEffect 4s infinite ease-in-out;
 }
@@ -52,13 +50,17 @@ img{
     }
 }
 
-body{ background-color: #FFC0CB;}
+body{ background-color: #FFC0CB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
 
 p{
     font-family: "Brush Script MT",cursive;
     font-size: 25px;
     display: flex;
-    justify-content: start;
     color: rgb(59, 3, 3)
 }
 
