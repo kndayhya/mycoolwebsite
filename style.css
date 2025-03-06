@@ -1,5 +1,26 @@
 h1{
     color:#800000;
+    transition: transform 0.3s ease, width 0.5s ease, height 0.3s ease;
+    text-shadow: 5px 5px 5px palevioletred;
+    animation: colorChange 2s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+      color: rgb(61, 2, 2);
+    }
+    25% {
+      color: rgb(229, 47, 89);
+    }
+    50% {
+      color: rgb(234, 21, 6);
+    }
+    75% {
+      color: rgb(165, 22, 55);
+    }
+    100% {
+      color: rgb(244, 6, 181);
+    }
 }
 
 h2{
@@ -11,12 +32,33 @@ img{
     height:250px;
     display: flex;
     align-items: start;
+    justify-content: center;
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+    animation: floatingEffect 4s infinite ease-in-out;
+}
+
+@keyframes floatingEffect{
+    0%{ transform: translateY(0) scale(1);
+        box-shadow:0px 1px 6px palevioletred; }
+    25%{transform: translateY(-1px) scale(1.01);
+        box-shadow:0px 2px 8px rgb(215, 24, 88);}
+    50%{transform: translateY(0) scale(1);
+        box-shadow:0px 1px 6px palevioletred;}
+    75%{ transform: translateY(1px) scale(1.01);
+        box-shadow:0px 2px 8px rgb(215, 24, 88);
+    }
+    100%{ transform: translateY(0) scale(1);
+        box-shadow:0px 1px 6px palevioletred;
+    }
 }
 
 body{ background-color: #FFC0CB;}
 
-img:hover{
-    width: 270px;
-    height: 270px
+p{
+    font-family: "Brush Script MT",cursive;
+    font-size: 25px;
+    display: flex;
+    justify-content: start;
+    color: rgb(59, 3, 3)
 }
 
