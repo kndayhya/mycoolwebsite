@@ -70,10 +70,4 @@ p{
     word-wrap: break-word; 
 }
 
-.clickable a {
-    pointer-events: none;
-}
 
-.clickable a:hover{
-    pointer-events: auto;
-}
